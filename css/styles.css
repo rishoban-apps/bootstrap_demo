@@ -1,0 +1,145 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Mediaquery */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 10%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 0 5%;
+  font-size: 2.5rem;
+  width: 5rem;
+}
+
+/* Feature section */
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+.feature-description {
+  color: #8f8f8f;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 1rem;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 0px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Footer */
+.copyright {
+  margin-top: 10px;
+}
+.icon {
+  margin: 20px 10px;
+}
